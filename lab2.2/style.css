@@ -1,0 +1,173 @@
+body
+{
+    margin: 0;
+}
+.main_container
+{
+    position: relative;
+    max-width: 960px;
+    min-width: 400px;
+    margin: auto;
+    padding: 100px 20px;
+}
+.container
+{
+    position: relative;
+}
+.content
+{
+    position: relative;
+    margin: 50px 0;
+}
+.foto_container
+{
+    position: relative;
+    width: 330px;
+}
+.author_foto
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+}
+.quote_container
+{
+    display: table;
+    position: relative;
+    
+    background-image: url(images/quotes.png);
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    
+    padding: 60px 0 0 55px;
+}
+.quote
+{
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(132,132,132);
+    font-family: "Georgia";
+    font-style: italic;
+    
+    margin: 0;
+}
+.quote_author
+{
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(51,51,51);
+    line-height: 42px;
+
+    margin: 0;
+}
+.quote_text
+{
+    
+}
+.side_info
+{
+    width: 330px;
+    margin-right: 60px;
+}
+.list ol, ul
+{
+    margin-left: 20px;
+    padding-left: 0;
+    padding-bottom: 50px;
+}
+.list li
+{
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+}
+.list p
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: "Open Sans";
+    font-weight: bold;
+    
+    margin: 0;
+}
+.bordered
+{
+    border-radius: 3px;
+    border-top: 6px solid #45c3aa;
+    
+    width: 50px;
+    display: inline-block;
+}
+.main_info
+{
+    display: table;
+    position: relative;
+}
+.main_text
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    
+    margin-bottom: 50px;
+}
+.author_name
+{
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+    
+    margin: 0 0 17px;
+}
+.second_tittle
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    
+    margin-bottom: 5px;
+}
+.clear
+{
+    clear: both;
+}
+.email_link
+{
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(21,169,139);
+    font-family: "Georgia";
+}
+.email_link:hover
+{
+    color: rgb(9,141,114);
+}
+.email_link span
+{
+    text-decoration: underline;
+}
+@media screen and (min-width:783px)
+{
+    .foto_container
+    {
+        padding-right: 60px;
+        float: left;
+    }
+    .side_info
+    {
+        float: left;
+    }
+    .quote_container
+    {
+        background-position: 0 60px;
+        padding-top: 130px;
+    }
+}

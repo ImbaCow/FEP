@@ -1,0 +1,619 @@
+body
+{
+    margin: 0;
+    min-width: 320px;
+    
+    background: url(images/bcakgr.png) no-repeat center 40px;
+}
+.main_content
+{
+    padding: 160px 0 0;
+    margin: 0;
+}
+.content
+{
+    max-width: 960px;
+    min-width: 280px;
+    margin: auto;
+    padding: 0 20px;
+}
+.header
+{
+    height: 40px;
+    max-width: 960px;
+    padding:0 20px;
+    margin: auto;
+}
+.header a
+{
+    display: inline-block;
+    padding: 10px 20px 9px 40px;
+    margin-left: -4px;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    color: rgb(51,51,51);
+    background-color: rgb(255,255,255);
+
+    background-repeat: no-repeat;
+    background-position: 15px 13px;
+
+    font-size: 19px;
+    font-family: "Georgia";
+}
+.header a:hover
+{
+    background-color: rgb(21,169,140);
+    color: rgb(245,245,245);
+
+    background-repeat: no-repeat;
+    background-position: 15px 13px;
+}
+.about_me
+{
+    background: url(images/about_me_icon.png);
+}
+.about_me:hover
+{
+    background: url(images/about_me_icon_2.png);
+}
+.hobby
+{
+    background: url(images/hobby_icon.png);
+}
+.hobby:hover
+{
+    background: url(images/hobby_icon_2.png);
+}
+.video
+{
+    background: url(images/video_icon.png);
+}
+.video:hover
+{
+    background: url(images/video_icon_2.png);
+}
+.top
+{
+    padding-top: 35px;
+}
+.description
+{
+    margin: 0;
+}
+.author_foto
+{
+    max-width: 250px;
+    padding: 0;
+    margin: auto;
+}
+.author_foto img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.quote
+{
+    margin: auto;
+    
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(132,132,132);
+    font-family: "Georgia";
+    font-style: italic;
+}
+.quote_author
+{
+    margin: 0;
+    
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.quote_text
+{   
+    padding: 50px 0 0;  
+    margin: auto;  
+    max-width: 450px; 
+}
+.side_info
+{
+    margin: auto;
+    margin-top: 45px;
+    padding: 0;
+    max-width: 420px;
+    height: 226px;
+}
+.side_info ul, ol
+{
+    padding-left: 0;
+    margin: 8px 0 8px 20px;
+    padding-bottom: 50px;
+}
+.side_info li
+{
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+}
+.side_info p
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: "Open Sans";
+    font-weight: bold;
+    
+    margin: 0;
+}
+.side_info div
+{
+    float: left;
+    padding-right: 43px;
+}
+.bordered
+{
+    display: inline-block;
+    border-radius: 3px;
+    border: 3px solid #45c3aa;
+    width: 50px;
+    background-color: #45c3aa;
+    
+    margin-bottom: 50px;
+}
+.main_info
+{
+    min-width: 228px;
+    max-width: 570px;
+    margin: auto;
+    display: table;
+    position: relative;
+}
+.main_text
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    
+    margin: -30px 0 50px;
+}
+.author_name
+{
+    margin: 0 0 5px;
+    font-size: 33px;
+    line-height: 55px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.second_tittle
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    
+    margin-bottom: 50px;
+}
+.films .last
+{
+   margin-right: 15px; 
+}
+.films_container
+{
+     background-color: #F9F9F7;
+}
+.favourite_films
+{
+    padding: 4px 20px 60px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+}
+.films
+{
+    text-align: center;
+}
+.films div
+{
+    width: 285px;
+    display: inline-table;
+    margin-right: 15px;
+    text-align: left;
+
+    opacity: 1;
+}
+.favourite_films img
+{
+    width: 285px;
+    
+    border-radius: 5px;
+    background-color: #454545;
+}
+.favourite_films_tittle
+{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.favourite_films_text
+{
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+}
+.all_films_button
+{
+    text-align: center;
+    margin: 60px 0 0;
+    display: none;
+}
+.footer
+{
+    background-color: #f5f5f5;
+    
+    text-align: center;
+    font-size: 16px;
+    line-height: 70px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    padding: 0 7px;
+}
+.clear
+{
+    clear: both;
+}
+.email_link
+{
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(21,169,139);
+    font-family: "Georgia";
+    cursor: pointer;
+}
+.email_link:hover
+{
+    color: rgb(9,141,114);
+}
+.email_link span
+{
+    text-decoration: underline;
+}
+.email_container
+{
+    background-color: rgba(0, 0, 0, 0.75);
+    position:  fixed;
+    top: 0%;
+    width:  100%;
+    padding: 38px 0;
+    height:  100%;
+    display:  none;
+    cursor: pointer;
+    overflow: auto;
+}
+.email
+{
+    max-width: 660px;
+    margin: auto;
+    padding: 0 60px 50px;
+    background-color: #fff;
+    box-sizing:  border-box;
+    border-radius: 10px;
+    cursor: default;
+}
+.email_tittle p
+{
+    white-space: nowrap;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    display: inline-block;
+    padding: 0;
+    margin: 45px 0 35px;
+    background-color: white;
+}
+.form_exit
+{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: url(images/exit_img.png) no-repeat;
+    cursor: pointer;
+    float: right;
+    margin: 30px -30px 0 0;
+}
+.form_exit:after
+{
+    clear: both;
+}
+.form_container
+{
+    max-width: 550px;
+    margin: auto;
+}
+.gender
+{
+    padding-bottom: 40px;
+    
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+}
+.form_container label
+{
+    font-size: 20px;
+    line-height: 37px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    
+    cursor: pointer;
+}
+.form_container label:not([class="home"])
+{
+    cursor: text;
+}
+.form_container .gender label
+{
+    cursor: pointer;
+    padding: 0 25px 0 0;
+    
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+}
+.gender p
+{
+    margin: 0;
+}
+.form_container textarea
+{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 40px;
+    
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    box-sizing: border-box;
+
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Open Sans";
+}
+.form_container input:not([type="radio"]), select
+{
+    width: 100%;
+    height: 50px;
+    padding:0 0 0 10px;
+    margin-bottom: 35px;
+
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    box-sizing: border-box;
+
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Open Sans";
+}
+.form_container select, option
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Open Sans";
+
+    cursor: pointer;
+}
+.form_container select
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    background: url(images/cursor.png) no-repeat 97% 50%;
+}
+.form_container select:hover, textarea:hover, input:not([type="radio"]):hover
+{
+    border-color: #a5a5a5;
+}
+.form_container select:focus, input:not([type="radio"]):focus, textarea:focus
+{
+    outline: none;
+    border-radius: 3px;
+    border: 2px solid #15a98b;
+}
+.form_container span
+{
+    color: red;
+}
+.button a, button
+{
+    border-radius: 5px;
+    background-color: #15a98b;
+    border: 0;
+
+    width: 220px;
+    text-align: center;
+    display: inline-block;
+
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 50px;
+    color: rgb(245,245,245);
+    font-family: "Georgia";
+}
+.button a:hover, button:hover
+{
+    cursor: pointer;
+    background-color: #098d71;
+}
+
+@media screen and (max-width: 767px)
+{
+    .main_text
+    {
+        font-size: 15px;
+    }
+    .second_tittle
+    {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    .favourite_films .second_tittle
+    {
+        text-align: center;
+    }
+    .quote
+    {
+        line-height: 30px;
+        font-size: 23px;
+    }
+    .quote_author
+    {
+        font-size: 12px;
+    }
+    .side_info p
+    {
+        font-size: 18px;
+    }
+    .side_info li
+    {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .email_link
+    {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:567px)
+{
+    .header
+    {
+        padding: 0;
+    }
+    .header a
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .email_tittle p
+    {
+        font-size: 24px;
+    }
+    .form_container label, .gender
+    {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .form_container textarea, .form_container select, .form_container option, .form_container input:not([type="radio"]), .form_container .gender label
+    {
+        font-size: 12px;
+    }
+    .form_container input:not([type="radio"]), select
+    {
+        height: 40px;
+        margin-bottom: 15px;
+    }
+    .form_container textarea
+    {
+        height: 100px;
+    }
+    .films div
+    {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 714px)
+{
+    .footer
+    {
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 667px)
+{
+    .author_foto
+    {
+        float: left;
+        padding-right: 40px;
+    }
+    .quote_text p
+    {
+        color: rgb(245,245,245);
+    }
+    .quote_text 
+    {
+        margin: 0 0 0 250px;
+        max-width: 650px;  
+    }
+    .side_info
+    {
+        float: left;
+
+        width: 290px;
+        padding: 0;
+    }
+    .author_name
+    {
+        margin: -45px 0 5px;
+        font-size: 33px;
+    }
+}
+@media screen and (min-width: 1255px)
+{
+    .films .last
+    {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .author_name
+    {      
+        margin: -105px 0 17px;
+        font-size: 48px;
+    }
+    .author_foto
+    {
+        max-width: 330px;
+        padding-right: 60px;
+    }
+    .quote_text
+    {
+        margin: 0 0 0 390px;
+    }
+    .side_info
+    {
+        margin: 50px 60px 0 0;
+        width: 330px;
+    }
+    .side_info ul, ol
+    {
+        margin: 16px 0 16px 20px;
+    }
+    .main_info
+    {
+        margin: 0;
+    }
+}
